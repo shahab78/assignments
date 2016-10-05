@@ -1,0 +1,19 @@
+Gents, for the first assignment, we are going to combine a bunch of linked lists into one. 
+
+The input of the function is going to be an array, which contains heads of multiple linked lists, 
+the output is going to be a pointer, to the head of a linked list that has elements of all those 
+linked lists in the input. 
+
+Example: 
+
+A: 1 -> 5 -> 9 -> 10
+
+B: 2 -> 7 -> 8 -> 1
+
+result = Combine (A&, B&)
+
+result : 1 -> 2 -> 5 -> 9 -> 10 -> 7 -> 8 -> 1 (order of the elements doesn't matter)
+
+You can have a class for the nodes, and another one for the linked lists, type and format of the objects
+is your call. 
+
